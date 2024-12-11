@@ -1,6 +1,5 @@
 language: python
 python:
-  - "3.11"
+  - "3.9"
 script:
   - scripts/ci_build.sh
-  
