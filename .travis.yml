@@ -3,7 +3,7 @@ python:
   - "3.9"
 
 script:
-  - scripts/ci_build.sh
+  - python setup.py install
 
 deploy:
   provider: pypi
