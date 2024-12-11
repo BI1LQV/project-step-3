@@ -15,5 +15,4 @@ deploy:
     tags: true
 
 script:
-  - python setup.py install
-  - python -m coverage run test/test_Suite.py
+  - scripts/ci_test.sh
