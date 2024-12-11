@@ -13,3 +13,6 @@ deploy:
   script: scripts/release.sh
   on:
     tags: true
+
+script:
+  - python -m coverage run test/test_Suite.py
