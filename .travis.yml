@@ -1,16 +1,15 @@
 language: python
+
+env:
+  global:
+    - TWINE_USERNAME=__token__
+    - secure: $PYPY_TOKEN
+
 python:
   - "3.9"
 
-script:
-  - python setup.py install
-
 deploy:
-  provider: pypi
-  username: "__token__"
-  password:
-    secure: $PYPI_TOKEN
-  distributions: "dist"
-  skip_existing: true
+  provider: script
+  script: scripts/release.sh
   on:
     tags: true
