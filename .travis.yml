@@ -1,5 +1,16 @@
 language: python
 python:
   - "3.9"
+
 script:
   - scripts/ci_build.sh
+
+deploy:
+  provider: pypi
+  username: "__token__"
+  password:
+    secure: $PYPI_TOKEN
+  distributions: "dist"
+  skip_existing: true
+  on:
+    tags: true
