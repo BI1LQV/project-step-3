@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/BI1LQV/project-step-3.svg?branch=master)](https://travis-ci.com/BI1LQV/project-step-3)
+
 # Description
 
 Reactive programming is popular in Web and APP development, where watching data change and triggering side effect (rerender) is a common practice.

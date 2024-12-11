@@ -3,7 +3,7 @@ language: python
 env:
   global:
     - TWINE_USERNAME=__token__
-    - secure: $PYPY_TOKEN
+    - TWINE_PASSWORD: $PYPY_TOKEN
 
 python:
   - "3.9"
