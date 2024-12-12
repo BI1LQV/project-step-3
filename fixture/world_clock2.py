@@ -108,7 +108,7 @@ def main():
     def update_time():
         while True:
             state.utc_time.value = datetime.now(pytz.UTC)
-            time.sleep(60)
+            time.sleep(15)
 
     Watch(ui.render)
     keyboard.Listener(on_press=on_press).start()
