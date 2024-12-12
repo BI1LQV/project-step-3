@@ -5,7 +5,6 @@ dist: jammy
 env:
   global:
     - TWINE_USERNAME=__token__
-    - TWINE_PASSWORD: $PYPY_TOKEN
 
 python:
   - "3.9"
