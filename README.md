@@ -3,6 +3,8 @@
 
 [reactive-python on PyPI](https://pypi.org/project/reactive-python/)
 
+[![test coverage report](Coverage Report.png)](Coverage Report.png)
+
 # Description
 
 Reactive programming is popular in Web and APP development, where watching data change and triggering side effect (rerender) is a common practice.
