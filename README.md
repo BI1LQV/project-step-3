@@ -1,5 +1,8 @@
 [![Build Status](https://app.travis-ci.com/BI1LQV/project-step-3.svg?token=Gch9KSjgLXdmrzWqtXKp&branch=main)](https://app.travis-ci.com/BI1LQV/project-step-3)
 
+
+[reactive-python on PyPI](https://pypi.org/project/reactive-python/)
+
 # Description
 
 Reactive programming is popular in Web and APP development, where watching data change and triggering side effect (rerender) is a common practice.
