@@ -7,14 +7,17 @@ class WatchAttr(Watch):
         self._track()
 
     def _track(self):
-        self.stop()
-        for attr in self._attributes:
-            if hasattr(attr, "_observers") and attr._observers is not None:
-                if self not in attr._observers:
-                    attr._observers.append(self)
-                    self._deps.append(attr)
-        if self._effect:
-            self._effect()
+        try:
+            self.stop()
+            for attr in self._attributes:
+                if hasattr(attr, "_observers") and attr._observers is not None:
+                    if self not in attr._observers:
+                        attr._observers.append(self)
+                        self._deps.append(attr)
+            if self._effect:
+                self._effect()
+        except Exception as e:
+            print(f"Tracking Error: {e}")
 
 
     def stop(self):

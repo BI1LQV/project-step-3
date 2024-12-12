@@ -13,8 +13,10 @@ class Computed(Reactive):
         raise Exception("Computed value cannot be set")
     
     def _update(self):
-        res = self._compute()
-        if res != object.__getattribute__(self, '_data')['value']:
-            object.__getattribute__(self,'_data')['value'] = res
-            self._trigger()
-
+        try:
+            res = self._compute()
+            if res != object.__getattribute__(self, '_data')['value']:
+                object.__getattribute__(self,'_data')['value'] = res
+                self._trigger()
+        except Exception as e:
+            print(f"Update Error: {e}")

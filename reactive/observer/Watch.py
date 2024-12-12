@@ -8,9 +8,12 @@ class Watch:
         self._track()
 
     def _track(self):
-        current_observers.append(self)
-        self._effect()
-        current_observers.pop()
+        try:
+            current_observers.append(self)
+            self._effect()
+            current_observers.pop()
+        except Exception as e:
+            print(f"Tracking Error: {e}")
 
     def stop(self):
         for dep in self._deps:
