@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/BI1LQV/project-step-3.svg?branch=master)](https://travis-ci.com/BI1LQV/project-step-3.svg?branch=master)
+[![Build Status](https://app.travis-ci.com/BI1LQV/project-step-3.svg?token=Gch9KSjgLXdmrzWqtXKp&branch=master)](https://app.travis-ci.com/BI1LQV/project-step-3)
 
 # Description
 

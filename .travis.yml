@@ -1,5 +1,7 @@
 language: python
 
+dist: jammy
+
 env:
   global:
     - TWINE_USERNAME=__token__
