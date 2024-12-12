@@ -27,8 +27,8 @@ class TimeState:
     def _format_time(self):
         current_time = self.current_time.value
         if self.display_format.value == "12h":
-            return current_time.strftime("%I:%M:%S %p")
-        return current_time.strftime("%H:%M:%S")
+            return current_time.strftime("%I:%M %p")
+        return current_time.strftime("%H:%M")
     
     def _get_timezone_details(self):
         current_time = self.current_time.value
@@ -108,7 +108,7 @@ def main():
     def update_time():
         while True:
             state.utc_time.value = datetime.now(pytz.UTC)
-            time.sleep(1)
+            time.sleep(60)
 
     Watch(ui.render)
     keyboard.Listener(on_press=on_press).start()
