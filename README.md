@@ -3,7 +3,7 @@
 
 [reactive-python on PyPI](https://pypi.org/project/reactive-python/)
 
-[![test coverage report](Coverage Report.png)](Coverage Report.png)
+[![test coverage report](Coverage%20Report.png)](Coverage%20Report.png)
 
 # Description
 
