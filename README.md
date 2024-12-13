@@ -1,7 +1,11 @@
 [![Build Status](https://app.travis-ci.com/BI1LQV/project-step-3.svg?token=Gch9KSjgLXdmrzWqtXKp&branch=main)](https://app.travis-ci.com/BI1LQV/project-step-3)
 
 
+PYPI: 
+
 [reactive-python on PyPI](https://pypi.org/project/reactive-python/)
+
+Test Coverage:
 
 [![test coverage report](Coverage%20Report.png)](Coverage%20Report.png)
 

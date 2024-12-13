@@ -1,0 +1,6 @@
+[run]
+source = reactive
+
+[report]
+omit =
+    tests/*
