@@ -9,6 +9,11 @@ Test Coverage:
 
 [![test coverage report](Coverage%20Report.png)](Coverage%20Report.png)
 
+Introduction:
+
+[Introduction Video(google drive)](https://drive.google.com/file/d/1U5yMp5ytBEIQ0LBpI0tHCc3aUyxGaf4B/view?usp=sharing)
+
+
 # Description
 
 Reactive programming is popular in Web and APP development, where watching data change and triggering side effect (rerender) is a common practice.
